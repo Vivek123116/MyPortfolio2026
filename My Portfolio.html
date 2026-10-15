@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<!-- saved from url=(0063)file:///C:/Users/hp/HTML%20Tutorials/Portfolio/index.html#about -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #f8fafc;
+      line-height: 1.6;
+    }
+
+    nav {
+      padding: 20px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #111c32;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    nav h2, .highlight {
+      color: #38bdf8;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 16px;
+    }
+
+    section {
+      padding: 65px 8%;
+    }
+
+    .hero {
+      min-height: 65vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    h1 {
+      font-size: clamp(2.2rem, 6vw, 3.5rem);
+      line-height: 1.2;
+      margin: 12px 0;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+    }
+
+    p {
+      color: #cbd5e1;
+      margin-bottom: 15px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #38bdf8;
+      color: #0f172a;
+      padding: 10px 18px;
+      border-radius: 7px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns:
+        repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 22px;
+      border-radius: 12px;
+      border: 1px solid #334155;
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+    }
+
+    .card a {
+      color: #38bdf8;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #111c32;
+    }
+
+    a:focus-visible {
+      outline: 2px solid #38bdf8;
+      outline-offset: 4px;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <h2>My Portfolio</h2>
+    <div>
+      <a href="file:///C:/Users/hp/HTML%20Tutorials/Portfolio/index.html#about">About</a>
+      <a href="file:///C:/Users/hp/HTML%20Tutorials/Portfolio/index.html#skills">Skills</a>
+      <a href="file:///C:/Users/hp/HTML%20Tutorials/Portfolio/index.html#projects">Projects</a>
+      <a href="file:///C:/Users/hp/HTML%20Tutorials/Portfolio/index.html#contact">Contact</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <p>Hello, I'm</p>
+    <h1>Vivek Singh Rajput</h1>
+    <h2 class="highlight">B.Tech CSE Student</h2>
+    <p>
+      I am learning Java, Data Structures and Algorithms,
+      and web development. I enjoy solving problems and
+      building useful projects.
+    </p>
+   
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a third-year Computer Science Engineering student
+      interested in software development and problem-solving.
+      I am continuously improving my programming skills through
+      practice and projects.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div class="grid">
+      <div class="card"><h3>Java</h3><p>Core Java and OOP</p></div>
+      <div class="card"><h3>DSA</h3><p>Learning problem-solving</p></div>
+      <div class="card"><h3>Web Development</h3><p>HTML and CSS</p></div>
+      <div class="card"><h3>Tools</h3><p>Git and GitHub (as learned)</p></div>
+    </div>
+  </section>
+  
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email:rajputvivek4593@gmail.com</p>
+    <p>
+      <a href="https://in.linkedin.com/in/vivek-rajput-566a7032b">LinkedIn</a> |
+      <a href="http://www.github.com/SushilDwivedi2005">GitHub</a>
+    </p>
+    <a class="button" href="file:///C:/Users/hp/HTML%20Tutorials/Portfolio/rajputvivek4593@gmail.com">
+      Send Me an Email
+    </a>
+  </section>
+
+  
+</body></html>
